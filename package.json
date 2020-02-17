@@ -1,0 +1,29 @@
+{
+  "name": "did-i-do-that",
+  "version": "1.0.0",
+  "description": "A debug tool based on JavaScript Proxy to track surprising/unwanted mutation of objects.",
+  "main": "did-i-do-that.mjs",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "esm": "^3.0.28"
+  },
+  "keywords": [
+    "proxy",
+    "debug",
+    "tool"
+  ],
+  "author": "Mikael Brevik <mikaelbre@gmail.com>",
+  "license": "ISC",
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "esm": {
+    "mode": "auto"
+  },
+  "dependencies": {}
+}
